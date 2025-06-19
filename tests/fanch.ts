@@ -42,7 +42,6 @@ describe("fanch", () => {
   });
 
     it("Add!", async () => {
-    // Add your test here.
      const tx = await program.methods.add(5)
       .accounts({
         account: newAccount.publicKey,
