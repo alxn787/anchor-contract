@@ -26,7 +26,6 @@ describe("fanch", () => {
   });
 
   it("Double!", async () => {
-    // Add your test here.
      const tx = await program.methods.double()
       .accounts({
         account: newAccount.publicKey,
