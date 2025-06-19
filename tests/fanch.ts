@@ -10,7 +10,6 @@ describe("fanch", () => {
   const newAccount = anchor.web3.Keypair.generate();
 
   it("Is initialized!", async () => {
-    // Add your test here.
      const tx = await program.methods.init(10)
       .accounts({
         account: newAccount.publicKey,
